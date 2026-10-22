@@ -1,0 +1,20 @@
+{
+  "experiment": "E1",
+  "label": "Basic CNN",
+  "epochs_completed": 11,
+  "epochs_requested": 35,
+  "seconds": 1257.3,
+  "best_epoch": 3,
+  "best_val_accuracy": 0.3315686881542206,
+  "best_val_loss": 1.7502774000167847,
+  "final_train_accuracy": 0.13507959246635437,
+  "config": {
+    "model": "cnn",
+    "augment": false,
+    "transfer": false,
+    "fine_tune": false,
+    "batch_size": 64,
+    "class_weight": true,
+    "seed": 42
+  }
+}

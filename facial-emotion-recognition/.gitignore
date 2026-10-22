@@ -1,0 +1,76 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Unit test / coverage / cache
+.pytest_cache/
+.cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Datasets & raw/processed data
+data/
+*.csv
+*.tsv
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.parquet
+*.feather
+*.hdf5
+*.npz
+*.npy
+*.tfrecord
+*.tfrecords
+*.jsonl
+
+# Trained models, weights & checkpoints
+models/
+checkpoints/
+*.keras
+*.h5
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.onnx
+*.pb
+*.tflite
+*.pkl
+*.pickle
+*.joblib
+*.safetensors
+*.weights
+
+# Logs, PIDs, and process outputs
+*.log
+*.pid
+*.out
+*.err
+
+# IDEs & OS metadata
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
